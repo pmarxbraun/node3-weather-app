@@ -1,0 +1,59 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 95vw;
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+footer {
+  border-top: 1px solid grey;
+  padding-top: 1vh;
+  flex-grow: 0;
+}
+
+h1 {
+  color: #000;
+  font-size: 5rem;
+  margin: 5vh 0;
+}
+
+header {
+  margin: 5vh 0;
+}
+
+header a {
+  color: grey;
+  margin-right: 1vw;
+}
+
+img {
+  width: 20vw;
+}
+
+footer h2 {
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+input {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  border: 1px solid grey;
+  padding: 4px;
+}
+
+button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  color: #fff;
+  background-color: royalblue;
+  padding: 4px 8px;
+  border: 1px solid royalblue;
+}
